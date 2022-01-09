@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import ViewModeEnum from '../../../enums/viewModeEnum';
-import { ProductsDetailsContext } from '../../../products-details-context';
-import { ViewProductContext } from '../../../view-product-context';
+import ViewModeEnum from '../../enums/viewModeEnum';
+import { ProductsDetailsContext } from '../../products-details-context';
+import { ViewProductContext } from '../../view-product-context'
 import styles from './ListActions.module.css';
 
 const ListActions = () => {

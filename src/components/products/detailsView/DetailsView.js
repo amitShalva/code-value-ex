@@ -1,8 +1,8 @@
 import styles from './DetailsView.module.css';
 import React from 'react';
-import { ViewProductContext } from '../../view-product-context';
-import { ProductsDetailsContext } from '../../products-details-context';
-import ViewModeEnum from '../../enums/viewModeEnum';
+import { ViewProductContext } from '../../../view-product-context';
+import { ProductsDetailsContext } from '../../../products-details-context';
+import ViewModeEnum from '../../../enums/viewModeEnum';
 
 const DetailsView = () => {
     const { viewProduct, setViewProduct } = React.useContext(ViewProductContext);

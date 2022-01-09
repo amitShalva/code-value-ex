@@ -1,4 +1,4 @@
-import DetailsView from '../detailsView/DetailsView';
+import DetailsView from './detailsView/DetailsView';
 import ProductList from './productList/ProductList';
 import styles from './Products.module.css';
 

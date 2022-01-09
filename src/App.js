@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/header/Header';
-import ListActions from './components/products/listActions/ListActions';
+import ListActions from './components/listActions/ListActions';
 import Products from './components/products/Products';
 import { ProductsDetailsContext } from './products-details-context';
 import { ViewProductContext } from './view-product-context';
