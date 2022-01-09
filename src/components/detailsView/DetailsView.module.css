@@ -1,0 +1,25 @@
+.container {
+    flex: 3;
+}
+
+.productForm{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a49d9d;
+    padding: 1vw;
+}
+
+.textInput {
+    width: 80%;
+}
+
+.saveBtn {
+    width: 50px;
+    align-self: flex-end;
+    background-color: #6dd4b2;
+    border-radius: 5px;
+}
+
+.productImg {
+    width: 20%;
+}

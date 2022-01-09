@@ -1,0 +1,34 @@
+.container {
+    border: 1px solid #a49d9d;
+    height: 100px;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.imgInfoSection {
+    display: flex;
+    justify-content: flex-start;
+    flex: 3;
+}
+
+.poductImg {
+    height: 100%;
+}
+
+.buttonSection {
+    flex: 1;
+}
+
+.deleteButton {
+    height: 20px;
+    background-color: orange;
+    margin-top: 70px;
+    border-radius: 5px;
+}

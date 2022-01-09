@@ -1,0 +1,10 @@
+.addProductButton {
+    background-color: #6dd4b2;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2vh;
+}
